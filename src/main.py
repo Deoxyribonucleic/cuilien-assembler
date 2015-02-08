@@ -12,7 +12,7 @@ data_instructions = {
 instructions = {
 	"NOP":	{"opcode": 0x0000, "operands": 0},
 	"HALT":	{"opcode": 0x0001, "operands": 0},
-	"INT":	{"opcode": 0x0002, "operands": 0},
+	"INT":	{"opcode": 0x0002, "operands": 1},
 	"MOV":	{"opcode": 0x0003, "operands": 2},
 	"JMP":	{"opcode": 0x0004, "operands": 1},
 	"INC":	{"opcode": 0x0006, "operands": 1},
