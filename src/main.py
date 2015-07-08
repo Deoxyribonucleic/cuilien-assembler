@@ -253,7 +253,7 @@ def main():
 	base_address = 0xFF000000
 
 	if len(sys.argv) < 2:
-		print("Usage:\n$ " + sys.argv[0] + " <source>")
+		print("Usage:\n$ " + sys.argv[0] + " <source> [base address]")
 		exit()
 
 	source_filename = sys.argv[1]
